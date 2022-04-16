@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_greetings">Bienvenido</string>
+    
+    <string name="login_client">¿Quién nos visita el día de hoy?</string>
+    <string name="login_client_hint"></string>
+
+    <string name="login_btn">Ingresar</string>
+</resources>

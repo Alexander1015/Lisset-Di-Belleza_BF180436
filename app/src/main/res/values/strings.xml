@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Lisset Di Bellezza</string>
+
+    <string name="menu_treatment">Tratamientos</string>
+    <string name="menu_record">Historial de Citas</string>
+    <string name="menu_exit">Salir</string>
+
+    <string name="home_greetings">Bienvenido a</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

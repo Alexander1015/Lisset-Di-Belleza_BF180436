@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_record">Buscar Cliente</string>
+    <string name="search_record_hint">Buscar</string>
+
+    <string name="name_record">Cita generada por:</string>
+    <string name="rc_name">Usuario</string>
+
+    <string name="treatment_record">Tratamiento solicitado:</string>
+    <string name="rc_treatment">Usuario</string>
+
+    <string name="date_record">Realizado un:</string>
+    <string name="rc_date">Fecha y Hora</string>
+</resources>

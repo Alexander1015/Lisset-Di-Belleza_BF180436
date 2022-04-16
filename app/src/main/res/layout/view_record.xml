@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:paddingVertical="20dp"
+    android:paddingHorizontal="10dp"
+    android:background="@color/primary_dark" >
+
+    <TextView
+        android:id="@+id/treatment_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/accent"
+        android:textAlignment="viewStart"
+        android:text="@string/treatment_record"
+        android:textSize="22sp"
+        tools:ignore="MissingConstraints"/>
+
+
+    <TextView
+        android:id="@+id/rc_treatment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAlignment="viewStart"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/treatment_record"
+        android:text="@string/rc_treatment"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/name_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/accent"
+        android:textAlignment="viewStart"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rc_treatment"
+        android:text="@string/name_record"
+        android:textSize="22sp"
+        tools:ignore="MissingConstraints"/>
+
+
+    <TextView
+        android:id="@+id/rc_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAlignment="viewStart"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_record"
+        android:text="@string/rc_name"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/date_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/accent"
+        android:textAlignment="viewStart"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rc_name"
+        android:text="@string/date_record"
+        android:textSize="22sp"
+        tools:ignore="MissingConstraints"/>
+
+
+    <TextView
+        android:id="@+id/rc_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAlignment="viewStart"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date_record"
+        android:text="@string/rc_date"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:paddingVertical="20dp"
+    android:paddingHorizontal="10dp"
+    android:background="@color/primary_dark" >
+
+    <TextView
+        android:id="@+id/tr_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:text="@string/tr_name"
+        android:textSize="22sp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/tr_img"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_large"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tr_name"
+        tools:ignore="MissingConstraints,NotSibling"
+        android:contentDescription="@string/tr_img" />
+
+    <TextView
+        android:id="@+id/tr_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAlignment="viewStart"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tr_img"
+        android:layout_marginRight="110dp"
+        android:text="@string/tr_price"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/more_treatment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/accent"
+        android:textAlignment="viewEnd"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tr_img"
+        android:text="@string/more_treatment"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

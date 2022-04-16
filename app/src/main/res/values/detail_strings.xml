@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dt_name">Nombre del Tratamiento</string>
+    <string name="dt_description">Descripción</string>
+    <string name="dt_price">Precio</string>
+    <string name="dt_img">Tratamiento</string>
+
+    <string name="select">Seleccione un horario</string>
+
+    <string name="dt_btn_back">Regresar a tratamientos</string>
+    <string name="dt_btn_new">Generar Cita</string>
+</resources>
