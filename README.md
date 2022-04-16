@@ -1,7 +1,7 @@
 # LissetDiBelleza :haircut: :calling:
 Lisset Di Belleza es una aplicacion destinada a una tienda ficticia en donde se prestan servicios de tratamientos estilo salon de belleza.
 
-<img src="https://drive.google.com/file/d/17a1fIB5F3W0n2-a8-2S7Of_4GW0hviE9/view?usp=sharing" alt="My cool logo"/>
+![img](https://github.com/Alexander1015/LissetDiBellezza_BF180436/blob/master/app/src/main/res/drawable-hdpi/logo.png)
 
 ## Desarrollador (G-03L) :computer: :earth_americas:
 * **Edgard Alexander Barrera Flamenco** - [Alexander1015 :octocat:](https://github.com/Alexander1015)
